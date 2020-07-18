@@ -22,7 +22,7 @@ import com.bumptech.glide.util.Synthetic;
  */
 @RequiresApi(api = VERSION_CODES.M)
 public class PostMConnectivityMonitor implements ConnectivityMonitor {
-  private static final String TAG = "ConnectivityStrategy";
+  private static final String TAG = "ConnectivityMonitor";
   private final Context context;
 
   @SuppressWarnings("WeakerAccess")
